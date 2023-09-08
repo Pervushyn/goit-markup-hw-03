@@ -47,8 +47,8 @@ h6 {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 156px;
+  margin-right: 156px;
 }
 .images {
   display: block;
@@ -75,7 +75,6 @@ h6 {
   flex-grow: 1;
 }
 .link-logo {
- 
   align-items: center;
   font-family: Raleway, sans-serif;
   color: var(--c-prymary-brand);
@@ -164,7 +163,6 @@ h6 {
 .advantage-list {
   display: flex;
   gap: 24px;
-
 }
 
 .visually-hidden {
@@ -206,7 +204,7 @@ h6 {
   padding-bottom: 32px;
 }
 .photofon {
-flex-basis: calc((100%-72px)/3);
+  flex-basis: calc((100%-72px) / 3);
   background-color: var(--c-background-white);
 }
 
@@ -219,7 +217,6 @@ flex-basis: calc((100%-72px)/3);
   text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.02em;
-
 }
 .porfolio-list {
   display: flex;
@@ -227,12 +224,12 @@ flex-basis: calc((100%-72px)/3);
   gap: 24px;
 }
 .portfolio-item {
-  flex-basis: calc((100%-48px)/2);
+  flex-basis: calc((100%-48px) / 2);
 }
 .portfolio-caps {
   display: flex;
   flex-direction: column;
-  padding-bottom: 32px; 
+  padding-bottom: 32px;
 }
 .section-dark {
   padding: 100px 0;
@@ -240,7 +237,9 @@ flex-basis: calc((100%-72px)/3);
   max-width: 1440px;
 }
 
-.logo-footer {
+.link-logo {
+  display: block;
+  margin-bottom: 18px;
   font-family: Raleway, sans-serif;
   color: var(--c-prymary-brand);
   font-size: 18px;
@@ -248,13 +247,11 @@ flex-basis: calc((100%-72px)/3);
   line-height: 1.17em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-margin-bottom: 18px;
 }
 .logo-accent-footer {
   color: var(--c-cloud);
 }
 .footer-text {
-
   max-width: 264px;
   color: var(--c-cloud);
   line-height: 1.5;
