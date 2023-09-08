@@ -194,7 +194,6 @@ h6 {
 }
 .photo-team {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
 }
 .team-item {
@@ -237,7 +236,7 @@ h6 {
   max-width: 1440px;
 }
 
-.link-logo {
+.logo-footer {
   display: block;
   margin-bottom: 18px;
   font-family: Raleway, sans-serif;
