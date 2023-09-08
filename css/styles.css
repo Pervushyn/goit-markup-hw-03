@@ -26,14 +26,18 @@ body {
 ul {
   list-style-type: none;
   margin: 0;
-  padding-left: 0; 
-
+  padding: 0;
 }
 a {
   text-decoration: none;
-  
 }
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 .section {
@@ -41,12 +45,38 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 .container {
   max-width: 1440px;
-  padding: 0 156px;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.images {
+  display: block;
+  margin-bottom: 32px;
 }
 
 /*header*/
-
+.nav-inner {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 76px;
+  flex-grow: 1;
+}
+.nav-menu {
+  display: flex;
+  flex-grow: 1;
+  display: inline-block;
+  padding: 24px 0;
+}
+.address-menu {
+  display: flex;
+  gap: 40px;
+  flex-grow: 1;
+}
 .link-logo {
+ 
+  align-items: center;
   font-family: Raleway, sans-serif;
   color: var(--c-prymary-brand);
   font-size: 18px;
@@ -75,6 +105,15 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 .norm {
   font-style: normal;
+}
+.nav-menu {
+  display: flex;
+  gap: 40px;
+  flex-grow: 1;
+}
+.address-menu {
+  display: flex;
+  gap: 40px;
 }
 .adress-link {
   color: var(--c-text);
@@ -108,6 +147,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-button {
+  display: block;
   margin: 0 auto;
   color: var(--c-white);
   background-color: var(--c-background-prymary-brand);
@@ -121,6 +161,12 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: var(--c-background-ocean);
 }
 /*section*/
+.advantage-list {
+  display: flex;
+  gap: 24px;
+
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -148,6 +194,21 @@ p, h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.photo-team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.team-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 32px;
+}
+.photofon {
+flex-basis: calc((100%-72px)/3);
+  background-color: var(--c-background-white);
+}
 
 .title-secondary {
   margin-bottom: 72px;
@@ -158,14 +219,27 @@ p, h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.02em;
+
+}
+.porfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.portfolio-item {
+  flex-basis: calc((100%-48px)/2);
+}
+.portfolio-caps {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32px; 
 }
 .section-dark {
-  padding: 120px 0;
+  padding: 100px 0;
   background-color: var(--c-background-hero);
+  max-width: 1440px;
 }
-.photofon {
-  background-color: var(--c-background-white);
-}
+
 .logo-footer {
   font-family: Raleway, sans-serif;
   color: var(--c-prymary-brand);
@@ -174,11 +248,13 @@ p, h1, h2, h3, h4, h5, h6 {
   line-height: 1.17em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 18px;
 }
 .logo-accent-footer {
   color: var(--c-cloud);
 }
 .footer-text {
+  max-width: 264px;
   color: var(--c-cloud);
   line-height: 1.5;
   letter-spacing: 0.02em;
