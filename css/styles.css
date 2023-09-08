@@ -56,26 +56,24 @@ h6 {
 }
 
 /*header*/
-.nav-inner {
+.header-inner {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  gap: 76px;
-  flex-grow: 1;
+  gap: 40px;
 }
-.nav-menu {
+
+.header-nav {
+  align-items: center;
   display: flex;
   flex-grow: 1;
+  gap: 40px;
+}
+
+
+.link-logo {
   display: inline-block;
   padding: 24px 0;
-}
-.address-menu {
-  display: flex;
-  gap: 40px;
-  flex-grow: 1;
-}
-.link-logo {
-  align-items: center;
   font-family: Raleway, sans-serif;
   color: var(--c-prymary-brand);
   font-size: 18px;
@@ -88,8 +86,17 @@ h6 {
 .logo-accent {
   color: var(--c-dark);
 }
+.nav-list {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  gap: 40px;
+  justify-content: center;
+}
 
 .nav-link {
+  display: inline-block;
+  padding: 24px 0;
   color: var(--c-dark);
   font-family: Roboto;
   font-style: normal;
@@ -105,16 +112,14 @@ h6 {
 .norm {
   font-style: normal;
 }
-.nav-menu {
-  display: flex;
-  gap: 40px;
-  flex-grow: 1;
-}
+
 .address-menu {
   display: flex;
   gap: 40px;
 }
 .adress-link {
+  display: inline-block;
+  padding: 24px 0;
   color: var(--c-text);
   text-decoration: none;
   font-size: 16px;
