@@ -229,6 +229,7 @@ h6 {
   letter-spacing: 0.02em;
 }
 .photo-team {
+  flex-basis: calc((100% - 72px) / 4);
   display: flex;
   gap: 24px;
 }
