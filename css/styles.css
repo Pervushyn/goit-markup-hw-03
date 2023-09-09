@@ -243,7 +243,9 @@ h6 {
   text-align: center;
 }
 .photofon {
-  flex-basis: calc((100%-72px) / 3);
+  display: flex;
+  border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 72px) / 4);
   background-color: var(--c-background-white);
 }
 
