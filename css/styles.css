@@ -194,7 +194,6 @@ h6 {
 
 .team-wraper {
   display: flex;
-  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
@@ -207,7 +206,6 @@ h6 {
   background-color: var(--c-background-light);
 }
 .advantage-item {
-  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
@@ -245,8 +243,8 @@ h6 {
 }
 .photofon {
   display: flex;
-  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
   background-color: var(--c-background-white);
 }
 
@@ -263,7 +261,6 @@ h6 {
 .porfolio-list {
   display: flex;
   flex-wrap: wrap;
-  width: calc((100% - 48px) / 3);
   row-gap: 48px;
   column-gap: 24px;
 }
