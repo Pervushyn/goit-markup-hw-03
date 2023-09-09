@@ -55,28 +55,17 @@ h6 {
   display: block;
   margin-bottom: 32px;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
 
 /*header*/
+.container-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .header-border {
   display: flex;
   margin: 0;
   border-bottom: 1px solid var(--c-background-accent);
-}
-.header-inner {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
 }
 
 .header-nav {
@@ -185,6 +174,16 @@ h6 {
   background-color: var(--c-background-ocean);
 }
 /*section*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
 
 .advantage-list {
   display: flex;
