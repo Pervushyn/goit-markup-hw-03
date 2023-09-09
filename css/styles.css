@@ -136,7 +136,6 @@ h6 {
   gap: 40px;
 }
 .adress-link {
-  display: inline-block;
   padding: 24px 0;
   color: var(--c-text);
   text-decoration: none;
@@ -215,7 +214,6 @@ h6 {
   letter-spacing: 0.02em;
 }
 .advantage-text {
-  text-align: center;
   color: var(--c-text);
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -235,7 +233,6 @@ h6 {
   text-align: center;
 }
 .photofon {
-  display: flex;
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
   background-color: var(--c-background-white);
@@ -258,9 +255,7 @@ h6 {
   column-gap: 24px;
 }
 .portfolio-item {
-  width: calc((100% - 48px) / 3);
-  display: flex;
-  border-top: none;
+  flex-basis: calc((100% - 48px) / 3);
   border: 1px solid var(--c-background-accent);
 }
 .portfolio-caps {
@@ -268,6 +263,7 @@ h6 {
   padding: 32px 16px;
   flex-direction: column;
   border: 1px solid var(--c-background-accent);
+  border-top: none;
 }
 .section-dark {
   padding: 100px 0;
