@@ -57,7 +57,7 @@ h6 {
 }
 
 /*header*/
-.container-inne {
+.header-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
