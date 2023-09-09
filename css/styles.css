@@ -69,8 +69,8 @@ h6 {
 }
 
 .header-nav {
-  align-items: center;
   display: flex;
+  align-items: center;
   flex-grow: 1;
   gap: 40px;
 }
@@ -120,8 +120,11 @@ h6 {
 }
 
 .address-menu {
+  align-items: center;
   display: flex;
+  flex-grow: 1;
   gap: 40px;
+  justify-content: center;
 }
 .adress-link {
   padding: 24px 0;
@@ -175,14 +178,14 @@ h6 {
 }
 /*section*/
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
   overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
 }
 
 .advantage-list {
